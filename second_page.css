@@ -1,0 +1,31 @@
+.containter_for_all_miracles  .sixth_miracle, .seventh_miracle, .eigth_miracle, .ninth_miracle, .tenth_miracle{
+
+    text-align: left;
+    padding: 0.2em ;
+    border: 1px solid black;
+    width: 95%;
+    margin: 0 auto;
+
+}
+
+
+
+.containter_for_all_miracles .sixth_miracle_inner , .seventh_miracle_inner , .eigth_miracle_inner, .fourth_miracle_inner, .ninth_miracle_inner, .tenth_miracle_inner{
+
+    display: flex;
+    justify-content: space-evenly;
+     
+border: 1px solid black;
+
+}
+
+@media (min-width:50px) and (max-width:800px){
+
+    .containter_for_all_miracles .sixth_miracle_inner , .seventh_miracle_inner, .eigth_miracle_inner, .ninth_miracle_inner, .tenth_miracle_inner{
+        
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    }
+    }
+
